@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.app {
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(245, 245, 245);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer {
+  background: #cccccc;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.footer .icons {
+  display: flex;
+  gap: 20px;
+  font-size: 1.5rem;
+}
+
+.footer .icons a {
+  color: rgb(0, 0, 0);
+}
+
+.footer .icons a:hover {
+  color: rgb(255, 0, 68);
+}
